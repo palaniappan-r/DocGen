@@ -1,0 +1,18 @@
+llm_provider: "ollama"
+
+ollama_base_url: "http://localhost:11434"
+ollama_model_name: "llama3.1"
+
+gemini_api_key: ""
+gemini_model_name: ""
+
+cpp_repo_path: "data/TritonRoute-WXL"
+paper_path: "data/paper.pdf"
+output_path: "data/output"
+chroma_db_path: "data/chroma_db"
+
+max_function_lines: 100
+min_function_lines: 5
+chunk_size: 1000
+chunk_overlap: 200
+embedding_model: "all-MiniLM-L6-v2"
